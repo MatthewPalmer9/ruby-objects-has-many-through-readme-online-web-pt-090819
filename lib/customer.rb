@@ -25,7 +25,7 @@ class Customer
 
   def waiters
     meals.map(){|meal|
-      meal.waiter == self
+      meal.waiter
     }
   end
 end
