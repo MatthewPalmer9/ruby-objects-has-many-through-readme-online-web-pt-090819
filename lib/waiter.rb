@@ -13,6 +13,12 @@ class Waiter
     Meal.new(self, customer, total, tip)
   end
 
+  def meals
+    Waiter.all.select(){|meal|
+      
+    }
+  end
+
   def self.all
     @@all
   end
