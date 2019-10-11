@@ -19,6 +19,10 @@ class Waiter
     }
   end
 
+  def best_tipper
+    
+  end
+
   def self.all
     @@all
   end
